@@ -1,8 +1,8 @@
-#Power BI Visuals
+# Power BI Visuals
 
 Learn how to build Power BI visuals!
  
-##Developing Your First PowerBI Visual
+## Developing Your First PowerBI Visual
  
 This section is to provide you with a step by step tutorial of developing your first PowerBI visual.
 In this tutorial, you will be building a simple bar chart. The source code is located here in the [Sample Bar Chart Repo](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart).
@@ -31,13 +31,19 @@ In this tutorial, you will be building a simple bar chart. The source code is lo
 9. [Adding Locale support to the Bar Chart](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/master/Tutorial/Locale.md)
 10. [Finally Package for Distribution ... Done!](tools/usage.md#packaging-your-visual-for-distribution)
 
+### Building a Slicer Visual
+1. [The sample slicer visual](https://github.com/Microsoft/powerbi-visuals-sampleslicer)
+2. [Adding advanced filter API](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/AddingAdvancedFilterAPI.md)
+3. [Using the advanced filter API](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/UsingAdvancedFilterAPI.md)
+
 ### Building R Powered Custom Visual (corrplot)
 1. [Creating a new R Powered Custom Visual](RVisualTutorial/CreateNewVisual.md)
 2. [Starting a simple R Script](RVisualTutorial/CorrplotScript.md)
 3. [Adding a static property to the property pane](RVisualTutorial/PropertiesPane.md)
 4. [Validate input data in R Script](RVisualTutorial/InputValidationInR.md)
+5. [Creating R Powered Custom Visual with HTML output](RVisualTutorial/CreateRHTML.md)
 
-##Table of Contents
+## Table of Contents
 
 * [Anatomy of a Visual Project](VisualProject.md)
 * [Installing PowerBI Visuals Tool](tools/README.md#installation)
@@ -53,16 +59,19 @@ In this tutorial, you will be building a simple bar chart. The source code is lo
     * [Data View Mappings](Capabilities/DataViewMappings.md)
     * [Objects](Capabilities/Objects.md)
     * [Highlighting](Capabilities/Highlighting.md)
+	* [Drill Down](Capabilities/Drilldown.md)
 * [Visual Documentation](Visual/Visual.md)
     * [Visual/IVisual Api](Visual/IVisualApi.md)
     * [Handling Selection in Visuals](Visual/Selection.md)
     * [Adding Tooltips to Visuals](Visual/Tooltips.md)
     * [Localizing Visuals](Visual/Locale.md)
+    * [Applying filters](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/UsingAdvancedFilterAPI.md)
+* [Mobile development guideline](Tutorial/MobileGuideline.md)
 * [PowerBI Glossary](Glossary.md)
 * [Change Log](ChangeLog.md)
 * [Roadmap](Roadmap/README.md)
 
-##Reporting Issues
+## Reporting Issues
 
 If you have any issues with Power BI custom visuals or the command line tools please let us know. First, search the issues page to see if your issue has already been reported. If it already exists please contribute your experience to the comments otherwise create a new issue. Be sure to be as detailed as possible about exactly what you were doing when the issue occured and how we can reproduce it.
 
